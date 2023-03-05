@@ -3,11 +3,11 @@ import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
 import Link from "next/link";
 export default function Hero({pageInfo}) {
-  const [text, count] = useTypewriter({
-    words: [`Hi my name is ${pageInfo?.name}`,`<${pageInfo?.role}/>`],
-    loop: true,
-    delaySpeed: 2000,
-  });
+  // const [text, count] = useTypewriter({
+  //   words: [`Hi my name is ${pageInfo?.name}`,`<${pageInfo?.role}/>`],
+  //   loop: true,
+  //   delaySpeed: 2000,
+  // });
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
@@ -23,7 +23,7 @@ export default function Hero({pageInfo}) {
          {pageInfo?.role}
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold px-10">
-          <span>{text}</span>
+          <span>yash</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
         <div className="pt-5">
