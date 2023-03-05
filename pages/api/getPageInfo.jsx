@@ -1,9 +1,7 @@
 import {groq} from "next-sanity";
 import { sanityClient } from "../../sanity";
 const query = groq`
-    *[_type == "pageInfo"][0]
-        
-`
+    *[_type == "pageInfo"][0]`
 export default async function handler(
     req,
     res
