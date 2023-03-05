@@ -38,7 +38,7 @@ export default function Home({pageInfo, projects, skills, socials}) {
     )
     
 }
-export const getStaticProps = async () => {
+export async function getStaticProps () {
     const pageInfo = await fetchPageInfo();
     const skills = await fetchSkills();
     const projects = await fetchProjects();
