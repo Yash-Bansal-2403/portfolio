@@ -15,6 +15,6 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "utils/fetchSocials.js", "utils/fetchSkills.js", "utils/fetchProject.js", "utils/fetchPageInfo.js", "sanity.js"],
   "exclude": ["node_modules"]
 }

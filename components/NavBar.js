@@ -1,7 +1,7 @@
 import { SocialIcon } from "react-social-icons"; //displays the icon corresponding to the URL provided
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { urlFor } from "../sanity";
+
 export default function NavBar({socials}) {
     return (
         
