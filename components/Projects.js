@@ -21,8 +21,8 @@ export default function Projects({ projects }) {
             <Image
               src={urlFor(project.image).url()}
               alt=""
-              width={200}
-              height={200}
+              width={190}
+              height={190}
             />
             {/* <motion.img 
               initial={{
